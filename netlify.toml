@@ -1,6 +1,6 @@
 [build]
   # Không cần câu lệnh build vì dự án không dùng bundler
-  command = "echo 'No build step required'"
+  command = npm run build
   # Thư mục chứa file index.html là thư mục gốc
   publish = "."
 
@@ -9,3 +9,4 @@
   from = "/*"
   to = "/index.html"
   status = 200
+
