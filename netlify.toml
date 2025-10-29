@@ -1,0 +1,11 @@
+[build]
+  # Không cần câu lệnh build vì dự án không dùng bundler
+  command = "echo 'No build step required'"
+  # Thư mục chứa file index.html là thư mục gốc
+  publish = "."
+
+[[redirects]]
+  # Quy tắc rewrite cho ứng dụng SPA (Single Page Application)
+  from = "/*"
+  to = "/index.html"
+  status = 200

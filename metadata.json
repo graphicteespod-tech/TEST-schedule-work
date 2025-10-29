@@ -1,0 +1,5 @@
+{
+  "name": "Workforce Scheduler",
+  "description": "A comprehensive work schedule management application designed for departments and organizations to efficiently plan and view employee shifts. Features role-based access for members, department admins, and leadership.",
+  "requestFramePermissions": []
+}
